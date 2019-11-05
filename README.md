@@ -4,13 +4,13 @@ This Dataset is mainly The Dataset can be analyzed in different angels. First, w
 Tableau Data Analysis
 The Tableau file is uploaded in this repository. First of all, we can have a view or idea regarding which authors have how many numbers of articles and how much upvotes they get for their articles in this dataset. Below a screenshot of tableau data analysis for these authors is given.
 
-![] (Sheet%201.png)
+![](Sheet%201.png)
 
 Here, we will have an idea regarding authors writing and their content. Also, We can see that the size of these circles defines which authors have larger writings and the color represents the number of upvotes of their writing. For example, davidreiss666 has most writings although he does not have many upvotes compared to other authors. Whereas, anutensi have most upvotes in his or her writings even though he or she was not one of the most written article holders over these years. From this, we can have an idea whenever we saw an article by an author. We will know if it will probably get an upvote or not.
 
 Secondly, we can see over the year how these article numbers and upvotes are changing.
 
-![] (Sheet%202.png)
+![](Sheet%202.png)
 
 
 
@@ -18,7 +18,7 @@ Although the number of articles is increasing each year compared to the previous
 
 Now whether an article is over_18 can be analyzed also. In the following portrayal, this is described.
 
-![] (Sheet%203.png)
+![](Sheet%203.png)
 
 
 
