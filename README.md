@@ -23,3 +23,10 @@ Now whether an article is over_18 can be analyzed also. In the following portray
 
 
 Most of the articles are not over_18 as it deals with some kind of aggression which is not so appropriate for young people. Also, most upvotes articles are not over_18.
+
+<p> I also create a dashboard that incorporates all of three plots. One dashboard story is given below.
+  
+  ![](Dashboard%201.png)
+  
+  Where we can see in the year 2015 which authors wrote the article and among these articles how many got upvotes from which authors or how many are over_18. Thus through this dashboard, we can easily filter important information that we need.</p>
+  
