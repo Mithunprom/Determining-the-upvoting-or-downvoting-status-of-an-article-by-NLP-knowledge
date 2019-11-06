@@ -6,7 +6,7 @@ The Tableau file is uploaded in this repository. First of all, we can have a vie
 
 ![](Sheet%201.png)
 
-Here, we will have an idea regarding authors writing and their content. Also, We can see that the size of these circles defines which authors have larger writings and the color represents the number of upvotes of their writing. For example, davidreiss666 has most writings although he does not have many upvotes compared to other authors. Whereas, anutensi have most upvotes in his or her writings even though he or she was not one of the most written article holders over these years. From this, we can have an idea whenever we saw an article by an author. We will know if it will probably get an upvote or not.
+Here, we will have an idea regarding authors writing and their content. Also, We can see that the size of these circles defines which authors have larger writings and the color represents the number of upvotes of their writing. For example, Doremus-Jessup has most writings although he does not have maximum upvotes. Whereas, anutensi have most upvotes in his or her writings even though he or she was not one of the most written article holders over these years. From this, we can have an idea whenever we saw an article by an author. We will know if it will probably get an upvote or not.
 
 Secondly, we can see over the year how these article numbers and upvotes are changing.
 
@@ -29,6 +29,10 @@ Most of the articles are not over_18. Also, most upvotes articles are not over_1
   ![](Dashboard%201.png)
   
   Where we can see in the year 2015 which authors wrote the article and among these articles how many got upvotes from which authors or how many are over_18 from which authors. Thus through this dashboard, we can easily filter important information that we need. For example, in year 2015, most of the authors whi wrote in this period got upvotes. The total number of upvotes that's why high in this year compared to other years. </p>
+  <p>  Also say, we want to analysis  Doremus-Jessup. He published articles fro years 2011-2016. He published most in 2015. Among all, his total upvotes are 277,001 where the total number of articles 1744 and all of them are not over_18. In the year 2015, he published most which are 47.5% of his total published article this year. Similarly, we can analyze the data from this created dashboard for each year or author, etc.</p>
+  
+  ![](Dashboard%202.png)
+
   <h> NLP problem</h>
  <p> If we inspect the data, we can create a text classification problem based on the article texts and whether an article gets upvotes or not. After reviewing the whole dataset, I concluded that it would be much fit if we classified the upvotes into two groups. Groups '0' where the articles get zero upvotes, group '1', where the article gets at least 1 upvote. For this, I am using a Neural network, which is renowned for the NLP problem and also has a greater advantage of this kind of situation. I use the combination of Dense, Convolution and LSTM layers and create a validation dataset that consists of 20% of the data. The loss and accuracy of both the training set and test sets are given below. Where we can see that the model loss converges to zero and accuracy converges to one. Both validation loss and accuracy gives high value. The following figure describes these values. The Whole architecture is built on Goggle Colab and it's given in this github repository(). </p>
   
