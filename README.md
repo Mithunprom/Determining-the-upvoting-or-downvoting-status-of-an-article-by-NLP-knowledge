@@ -26,7 +26,7 @@ Most of the articles are not over_18. Also, most upvotes articles are not over_1
 
 <p>Now it's time to connect the dots between these three plots. For this, I created a dashboard that incorporates all of three plots. One dashboard story is given below.
   
-  ![](Dashboard%202.png)
+   ![](Capture1.JPG)
   
   Where we can see in the year 2015 which authors wrote the article and among these articles how many got upvotes from which authors or how many are over_18 from which authors. Thus through this dashboard, we can easily filter important information that we need. For example, in year 2015, most of the authors whi wrote in this period got upvotes. The total number of upvotes that's why high in this year compared to other years. </p>
   <p>  Also say, we want to analysis  Doremus-Jessup. He published articles fro years 2011-2016. He published most in 2015. Among all, his total upvotes are 277,001 where the total number of articles 1744 and all of them are not over_18. In the year 2015, he published most which are 47.5% of his total published article this year. Similarly, we can analyze the data from this created dashboard for each year or author, etc.</p>
