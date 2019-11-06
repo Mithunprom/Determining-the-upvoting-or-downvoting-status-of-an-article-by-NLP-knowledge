@@ -22,13 +22,13 @@ Now whether an article is over_18 can be analyzed also. In the following portray
 
 
 
-Most of the articles are not over_18 as it deals with some kind of aggression which is not so appropriate for young people. Also, most upvotes articles are not over_18.
+Most of the articles are not over_18. Also, most upvotes articles are not over_18.
 
-<p> I also create a dashboard that incorporates all of three plots. One dashboard story is given below.
+<p>Now it's time to connect the dots between these three plots. For this, I created a dashboard that incorporates all of three plots. One dashboard story is given below.
   
   ![](Dashboard%201.png)
   
-  Where we can see in the year 2015 which authors wrote the article and among these articles how many got upvotes from which authors or how many are over_18. Thus through this dashboard, we can easily filter important information that we need.</p>
+  Where we can see in the year 2015 which authors wrote the article and among these articles how many got upvotes from which authors or how many are over_18 from which authors. Thus through this dashboard, we can easily filter important information that we need. For example, in year 2015, most of the authors whi wrote in this period got upvotes. The total number of upvotes that's why high in this year compared to other years. </p>
   <h> NLP problem</h>
  <p> If we inspect the data, we can create a text classification problem based on the article texts and whether an article gets upvotes or not. After reviewing the whole dataset, I concluded that it would be much fit if we classified the upvotes into two groups. Groups '0' where the articles get zero upvotes, group '1', where the article gets at least 1 upvote. For this, I am using a Neural network, which is renowned for the NLP problem and also has a greater advantage of this kind of situation. I use the combination of Dense, Convolution and LSTM layers and create a validation dataset that consists of 20% of the data. The loss and accuracy of both the training set and test sets are given below. Where we can see that the model loss converges to zero and accuracy converges to one. Both validation loss and accuracy gives high value. The following figure describes these values. The Whole architecture is built on Goggle Colab and it's given in this github repository(). </p>
   
