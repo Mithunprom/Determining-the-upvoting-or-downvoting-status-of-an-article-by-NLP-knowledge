@@ -35,8 +35,15 @@ Most of the articles are not over_18. Also, most upvotes articles are not over_1
   ![](Capture.JPG)
 
   # NLP problem
- <p> If we inspect the data, we can create a text classification problem based on the article texts and whether an article gets upvotes or not. After reviewing the whole dataset, I concluded that it would be much fit if we classified the upvotes into two groups. Groups '0' where the articles get zero upvotes, group '1', where the article gets at least 1 upvote. For this, I am using a Neural network, which is renowned for the NLP problem and also has a greater advantage of this kind of situation. I use the combination of Dense, Convolution and LSTM layers and create a validation dataset that consists of 20% of the data. The loss and accuracy of both the training set and test sets are given below. Where we can see that the model loss is on the right direction which is converging to zero and accuracy is converging to one. Both validation loss and accuracy gives the right direction results. Validation loss is accpetable with  apprimately 82%. The following figure describes these values. The Whole architecture is built on Goggle Colab and it's given in this github repository('DataScience_coding_prob.ipynb'). </p>
+ <p> If we inspect the data, we can create a text classification problem based on the article texts and whether an article gets upvotes or not. After reviewing the whole dataset, I concluded that it would be much fit if we classified the upvotes into two groups. Groups '0' where the articles get zero upvotes, group '1', where the article gets at least 1 upvote. For this, I am using a Neural network, which is renowned for the NLP problem and also has a greater advantage of this kind of situation. I use the combination of Dense, Convolution and LSTM layers and create a validation dataset that consists of 20% of the data. The loss and accuracy of both the training set and test sets are given below. Where we can see that the model loss is in the right direction which is converging to zero and accuracy is converging to one. Both validation loss and accuracy gives the right direction results. Validation loss is acceptable with apprimately 82%. The following figure describes these values. The Whole architecture is built on Goggle Colab and it's given in this github repository('DataScience_coding_prob.ipynb'). </p>
    
    ![](Capture3.JPG)
 
-  <Now lets see the the problem in embedding projector. The output of the embedding layer's weight is collected. Then we collected embedding dimension for each word. If er paste the tsv file for vec and metadat which are put in github repository() into the tensorflow projector, we will get nearest neighbours for each word. 
+  <Now let's see the problem in embedding projector. The output of the embedding layer's weight is collected. Then we collected the embedding dimension for each word. If er paste the tsv file for vec and meta which are put in github repository(metadat.tsv, vec.tsv) into the tensorflow projector, we will get nearest neighbors for each word. 
+  The embedding projector snapshot is given below:
+     
+     ![](Capture3.JPG)
+Now let's see what are the 100 nearest words stick to 'colleague'. In the following picture, we will have these words. From this, we can guess the idea of an article category based on this nearest neighbor classifier. Thus if an article's words are neighbors to certain words
+we can have a clear idea of what that article will be in terms of up_votes, down_votes, authors, etc. 
+   
+   ![](Capture4.JPG)
