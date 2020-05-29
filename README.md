@@ -1,4 +1,4 @@
-# project
+# project Description
 This Dataset is mainly based on the newspaper article. The dataset contains the article title along with the article writer and it's number of upvotes or downvotes. It also contains the date and the time of the article creation. The category of the articles and whather the content is over 18 or not are also included in the dataset. The aim of this project to analysis this dataset with the data visualization tools (Tableau) and also to build a NLP model to detect if an article will be upvoted or not based on it's content. 
 
 Tableau Data Analysis
